@@ -12,6 +12,13 @@ import java.util.Scanner;
  * @author Aluno
  */
 public class NewMain {
+    
+    public static double pedirnumero(){
+        Scanner e = new Scanner(System.in);
+        System.out.print("Digite um numero:");
+        double num = e.nextDouble();
+        return num;
+    }
 
     /**
      * @param args the command line arguments
