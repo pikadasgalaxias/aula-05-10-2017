@@ -11,11 +11,30 @@ package javaapplication1;
  */
 public class JavaApplication1 {
 
+    public static void quadrado(double n) {
+
+        double r = n * n;
+
+    }
+
+    public static void metade(double v) {
+
+        double r = v / 2;
+        return r;
+
+    }
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Raiz: "+ math.sqrt(15));
+        
+        //System.out.println("Quadrado: " + quadrado(15);
+        quadrado(15);
+        
+        System.out.println("Metade: " + metade(15));
+
     }
-    
+
 }
